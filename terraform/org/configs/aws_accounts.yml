@@ -1,0 +1,13 @@
+defaults:
+  aws_region: us-east-1
+  aws_sso_region: us-east-1
+  environments:
+  - dev
+  - prod
+  admin_root_email_name: aws-org
+  admin_root_email_domain: schlafdata.com
+  administrator_email: aws-org@schlafdata.com
+  use_org_unit: True
+  org_unit_name: schlafdata
+projects:
+  - portalai
